@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="Pages/HomePageStyle.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body >
+    <div class="center-container">
+        <h1 id="title">Tic Tac Toe Game!</h1>
+        <br>
+        <br>
+        <br>
+        <button id="NewGameButton" onclick="redirectToAnotherPage()">New Game</button>
+    </div>
+
+
+    <div class="left-container">
+        <br>
+        <br>
+        <br>
+    <a id="GELink" target="_blank" href="Pages/ExplanationPage.html"><h3>Game explanation</h3></a>
+    </div>
+    <a id="QASLink" target="_blank" href="Pages/QAS.html"><h3>Questions and Services</h3></a>
+   
+    
+    <script>
+        function redirectToAnotherPage() {
+            window.location.href = "Pages/ChoiModepage.html"; // Replace "AnotherPage.html" with the actual URL
+        }
+    </script>
+    
+</body>
+</html>

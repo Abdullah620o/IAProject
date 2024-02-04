@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.game{
+    width: 440px;
+    text-align: center;
+    margin: auto;
+}
+
+.title{
+    width: 400px;
+    height: 40px;
+    background: #fb9664;
+    padding: 5px 0;
+    margin:2px ;
+    margin:15px 0;
+    font-family: "Press Start 2P";
+    font-size: 20px;
+    line-height: 40px;
+}
+
+span{
+    color: rgb(109, 39, 39);
+}
+
+.square{
+    width: 130px;
+    height: 130px;
+    background: linear-gradient(90deg, #4de84d 0%, #FC466B 100%);
+    float: left;
+    margin: 2px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 95px;
+    font-weight: 500;
+} 
+
+.square:hover {
+    background: #4de84d;
+    cursor: pointer;
+}

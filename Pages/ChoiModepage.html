@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="ChoiModepageStyle.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="center-container">
+        <h1 id="title">Choose the mode :</h1>
+        <br>
+        <br>
+        <button id="OnevsOneButton" onclick="redirectToAnotherPage()">One Vs one</button>
+        <br>
+        <br>
+        <button id="OnevsNPCButton" onclick="redirectToAnotherPage2()">One Vs AI</button>
+    </div>
+    <script>
+        function redirectToAnotherPage() {
+            window.location.href = "OneVsOnepage.html"; // Replace "AnotherPage.html" with the actual URL
+        }
+    </script>
+
+    <script>
+        function redirectToAnotherPage2() {
+            window.location.href = "OneVsAipage.html"; // Replace "AnotherPage.html" with the actual URL
+        }
+    </script>
+</body>
+</html>

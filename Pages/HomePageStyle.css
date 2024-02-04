@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* This ensures the body takes up the full height of the viewport */
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1px; /* Adjust this margin as needed */
+}
+
+#title {
+    font-family: "press start 2P";
+    background: linear-gradient(45deg, #FF8C00, #FFD700);
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+
+
+#NewGameButton {
+    font-family: "press start 2P";
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    /* box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px; */
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 19px 24px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+
+    transition: background-image 0.3s, box-shadow 0.3s, color 0.3s;
+}
+
+#NewGameButton:hover {
+    background-image: linear-gradient(144deg, #5B42F3, #AF40FF 50%, #00DDEB);
+    box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.2), 0 8px 30px 0 rgba(0, 0, 0, 0.19);
+    color: #FFFFFF;
+}
+
+
+
+#GELink {
+    color: white;
+}
+
+a#GELink :hover {
+    color: rgb(94, 63, 25);
+}
+
+#QASLink {
+    color: white;
+}
+
+a#QASLink :hover {
+    color: rgb(94, 63, 25);
+}
